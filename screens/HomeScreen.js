@@ -61,7 +61,7 @@ const HomeScreen = () => {
     return (
         <SafeAreaView style={tw`bg-white flex-1 h-full`}>
             <View style={tw`flex p-5 flex-row items-center h-1/10`}>
-                <Text style={tw`rounded bg-white text-2xl font-bold`}>WHEELZ 365</Text>
+                <Text style={tw`rounded bg-white text-2xl font-bold`}>TRIKAAL</Text>
                 <TouchableOpacity 
                     onPress={() => navigation.navigate("ProfileScreen")}
                     style={tw`bg-gray-100 absolute right-6 z-50 p-3 rounded-full shadow rounded-full shadow-lg`}
@@ -69,10 +69,8 @@ const HomeScreen = () => {
                     <Icon name="menu"/>
                 </TouchableOpacity>
             </View>
-            <View style={tw`h-9/10`}>
-                <NavOptions param1='HomeScreen' param2={data} />
-                <PassCard />
-                <ActivityListCard param1='HomeScreen' param2='enableArrow' style={tw`flex-grow`}/>
+            <View style={tw`h-9/10 items-center`}>
+                <Text style={tw`rounded bg-white text-2xl font-bold`}>Welcome to Trikall</Text>
             </View>
         </SafeAreaView>
     );

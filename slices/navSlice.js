@@ -7,7 +7,7 @@ let initialState = {
     isLoggedIn: false,
     isLoggedOut: true,
     profileData : null,
-    pendingProfile: true,
+    pendingProfile: false | true,
     userProfile: null,
     featureFlags: null,
     helpAndSupportData: null,

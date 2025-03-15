@@ -112,13 +112,6 @@ export default function App() {
                 }}
               />
               <Stack.Screen 
-                name='ServiceScreen' 
-                component={ServiceScreen}
-                options={{
-                  headerShown: false,
-                }}
-              />
-              <Stack.Screen 
                 name='ProfileScreen' 
                 component={ProfileScreen}
                 options={{
@@ -156,13 +149,6 @@ export default function App() {
               <Stack.Screen 
                   name="ReferAndEarn"
                   component={ReferAndEarn}
-                  options={{
-                      headerShown: false
-                  }}
-              />
-              <Stack.Screen 
-                  name="PassCardNavigation"
-                  component={PassCardNavigation}
                   options={{
                       headerShown: false
                   }}
