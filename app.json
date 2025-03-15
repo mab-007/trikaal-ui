@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Trikaal",
+    "slug": "Trikaal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_logo.png",
+    "userInterfaceStyle": "light",
+    "fonts": [
+      {
+        "Virtual": "./assets/fonts/Virtual.ttf"
+      }
+    ],
+    "splash": {
+      "image": "./assets/app_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rklaxman.trikaal",
+      "googleServicesFile": "./client_293297707646-5gl080j71gvkebhf1jp90v97kpi937mc.apps.googleusercontent.com.plist"
+    
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/playstore.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rklaxman.trikaal"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/app_logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.293297707646-5gl080j71gvkebhf1jp90v97kpi937mc"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a188f925-c0c8-41aa-a398-abac6825699b"
+      }
+    }
+  }
+}
+
